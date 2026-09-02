@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>王梓健 | 个人学术主页</title>
+<style>
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:#f7f8fb;color:#182230;line-height:1.7}.container{width:min(1080px,calc(100% - 36px));margin:auto}.nav{position:sticky;top:0;background:rgba(247,248,251,.92);backdrop-filter:blur(12px);border-bottom:1px solid #e7eaf0;z-index:10}.navin{height:68px;display:flex;align-items:center;justify-content:space-between}.links{display:flex;gap:20px;font-size:14px;color:#667085}.hero{padding:70px 0 34px}.grid{display:grid;grid-template-columns:1.4fr .8fr;gap:36px}.eyebrow{display:inline-block;padding:6px 11px;border-radius:999px;background:#eef4ff;color:#2557a7;font-size:13px;font-weight:700}h1{font-size:58px;line-height:1.05;margin:14px 0}.lead{font-size:18px;color:#475467}.card{background:#fff;border:1px solid #e7eaf0;border-radius:18px;box-shadow:0 8px 28px rgba(16,24,40,.05)}.profile{padding:26px}.avatar{width:108px;height:108px;border-radius:24px;display:grid;place-items:center;background:linear-gradient(135deg,#2557a7,#0f766e);color:#fff;font-size:30px;font-weight:800}.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}.stat{padding:13px;border:1px solid #e7eaf0;border-radius:13px}.stat strong{display:block;color:#2557a7}.section{padding:38px 0}.section h2{font-size:28px}.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.project{padding:22px}.label{font-size:12px;color:#0f766e;font-weight:800}.project h3{margin:8px 0}.project p{font-size:14px;color:#667085}.metrics{font-size:13px;font-weight:700}.project a{color:#2557a7;font-weight:800;font-size:13px}.about{padding:25px;color:#475467}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.tag{background:#f2f4f7;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:700}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{padding:10px 15px;border-radius:10px;border:1px solid #e7eaf0;background:#fff;font-weight:700;text-decoration:none;color:#182230}.btn.primary{background:#2557a7;color:#fff}.awards{padding:4px 24px}.award{display:flex;justify-content:space-between;gap:18px;padding:16px 0;border-bottom:1px solid #e7eaf0}.award:last-child{border-bottom:0}.level{color:#2557a7;font-weight:800;font-size:13px}.contact{text-align:center;padding:28px}footer{text-align:center;color:#98a2b3;padding:30px}@media(max-width:800px){.grid,.projects{grid-template-columns:1fr}.links{display:none}h1{font-size:44px}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="container navin"><strong>WZJ · 个人学术主页</strong><div class="links"><a href="#about">关于我</a><a href="#projects">代表项目</a><a href="#awards">竞赛荣誉</a><a href="#contact">联系方式</a></div></div></nav>
+
+<header class="hero"><div class="container grid">
+<div><span class="eyebrow">计算机科学 · 人工智能 · 计算机视觉</span><h1>王梓健</h1>
+<p class="lead">南京信息工程大学计算机学院计算机科学与技术（腾讯实验班）本科生。关注计算机视觉、医学人工智能与深度学习应用，并具有教育 AI Agent 与大数据实时计算项目实践。</p>
+<div class="actions"><a class="btn primary" href="#projects">查看代表项目</a><a class="btn" href="https://github.com/wzjgo339" target="_blank">GitHub</a></div></div>
+<div class="card profile"><div class="avatar">WZJ</div><h3>个人概览</h3><p>南京信息工程大学 · 计算机学院 · 腾讯实验班</p><div class="stats"><div class="stat"><strong>4 / 28</strong><span>专业排名</span></div><div class="stat"><strong>CET-4 612</strong><span>英语四级</span></div><div class="stat"><strong>CET-6 551</strong><span>英语六级</span></div><div class="stat"><strong>AI / CV</strong><span>主要研究兴趣</span></div></div></div>
+</div></header>
+
+<section class="section" id="about"><div class="container"><h2>关于我</h2><div class="card about">
+我围绕深度学习、计算机视觉、医学图像分析、目标检测、轻量化模型以及大语言模型应用完成了多项实践，并参与江苏省教育评估院智能写作 Agent 项目。部分个人项目在 AI 编程 Agent 辅助下完成；项目选题、技术路线理解、数据处理、实验配置、结果分析、调试与最终整合由我持续参与和负责。
+<div class="tags"><span class="tag">Computer Vision</span><span class="tag">Medical AI</span><span class="tag">Object Detection</span><span class="tag">Segmentation</span><span class="tag">Big Data</span><span class="tag">PyTorch</span></div>
+</div></div></section>
+
+<section class="section" id="projects"><div class="container"><h2>代表项目</h2><div class="projects">
+<div class="card project"><div class="label">医学 AI · 语义分割</div><h3>结肠镜息肉语义分割系统</h3><p>基于 U-Net + EfficientNet-B4 的医学图像分割项目，围绕结肠镜息肉区域的像素级分割、训练评估与预测可视化开展完整实践。</p><a href="https://github.com/wzjgo339/polyp-segmentation" target="_blank">查看仓库 →</a></div>
+
+<div class="card project"><div class="label">计算机视觉 · 火灾烟雾检测</div><h3>Fire & Smoke Detection</h3><p>基于 YOLOv8 与 D-Fire 数据集完成火灾和烟雾目标检测，支持图片、视频和摄像头推理，并加入 TensorRT 加速。</p><div class="metrics">D-Fire · YOLOv8 · TensorRT</div><a href="https://github.com/wzjgo339/fire-smoke-detection" target="_blank">查看仓库 →</a></div>
+
+<div class="card project"><div class="label">计算机视觉 · 足球目标检测</div><h3>YOLO11m 足球目标检测系统</h3><p>从比赛图片、视频和 GIF 中识别球员、守门员、裁判和足球，支持高分辨率推理与分块检测，并采用颜色保留训练策略提升类别区分能力。</p><div class="metrics">YOLO11m · High-resolution Inference · Tiled Detection</div><a href="https://github.com/wzjgo339/football-player-detection" target="_blank">查看仓库 →</a></div>
+
+<div class="card project"><div class="label">轻量化 AI · 表情识别</div><h3>Emotion Recognition</h3><p>围绕轻量化模型与注意力机制开展表情识别实践，重点关注分类性能、模型复杂度与推理效率之间的平衡。</p><a href="https://github.com/wzjgo339/emotion-recognition" target="_blank">查看仓库 →</a></div>
+
+<div class="card project"><div class="label">教育 AI · Agent 实践</div><h3>CosmoSearch · 智能写作 Agent 项目</h3><p>参与江苏省教育评估院智能写作 Agent 项目开发，主要承担知识库构建相关工作，围绕文档整理、知识检索与大模型应用流程开展实践。</p><div class="metrics">真实项目经历 · Knowledge Base · Retrieval · LLM Application</div><a href="https://github.com/wzjgo339/cosmosearch" target="_blank">查看仓库 →</a></div>
+
+<div class="card project"><div class="label">大数据 · 实时计算</div><h3>实时用户行为分析平台</h3><p>基于 Nginx → Kafka → Flink → ClickHouse → Spring Boot → Vue 3 构建全链路实时用户行为分析平台，支持大规模 PV 数据实时聚合、多维分析大屏与 WebSocket 实时推送。</p><div class="metrics">Kafka · Flink · ClickHouse · Spring Boot · Vue 3 · WebSocket</div><a href="https://github.com/wzjgo339/user-behavior-analytics" target="_blank">查看仓库 →</a></div>
+</div></div></section>
+
+<section class="section" id="awards"><div class="container"><h2>竞赛与荣誉</h2><div class="card awards">
+<div class="award"><span>蓝桥杯 · Python</span><span class="level">全国一等奖</span></div>
+<div class="award"><span>蓝桥杯 · C/C++</span><span class="level">全国三等奖</span></div>
+<div class="award"><span>全国大学生数学建模竞赛</span><span class="level">省级二等奖</span></div>
+<div class="award"><span>美国大学生数学建模竞赛 MCM/ICM</span><span class="level">S Award</span></div>
+</div></div></section>
+
+<footer>© 2026 王梓健 · 用于学术交流与研究生申请</footer>
+</body></html>
